@@ -1,0 +1,12 @@
+[alias]
+	st = status -sb
+	co = checkout
+	br = branch
+	ci = commit
+	lg = log --oneline --graph --decorate -20
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
